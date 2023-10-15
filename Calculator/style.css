@@ -1,0 +1,13 @@
+body {
+    background-color: #181A1B;
+}
+
+.grid-numbers {
+	height: 300px;
+    display: grid;
+    grid-template-columns: 4;
+    grid-template-rows: 6;
+    gap: 10px;
+    grid-column: 1 / 4;
+    grid-row: 1/6;
+}
